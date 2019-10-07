@@ -15,10 +15,10 @@ import com.zensar.spring.Greeting;
 	{	
 	//creating obj of ioc container
 	ApplicationContext var= new ClassPathXmlApplicationContext("greeting.xml");
-	Greeting g= var.getBean("AnniversayGreeting",Greeting.class);
-	System.out.println(g.greet());
+	Greeting g= var.getBean("festival",Greeting.class);
+	//System.out.println(g.greet());
 		
 	Greeting g1= var.getBean("festival",Greeting.class);
-	System.out.println(g1.greet());
+	//System.out.println(g1.greet());
 	}
 }
