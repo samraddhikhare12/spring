@@ -12,6 +12,8 @@ public class ZensarIdolMain {
 		
 		Performer p= var.getBean("pyare mohan",Performer.class);
 		p.perform();
+		Performer p1=var.getBean("katrina kaif",Performer.class);
+		p1.perform();
 	}
 
 }
